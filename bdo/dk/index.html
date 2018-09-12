@@ -82,15 +82,16 @@
         
     <h2 class="white">Table of Contents</h2>
     <h6><a href="#dkone">Skill Build</a></h6>
+    <h6><a href="#dk2">Skill Addons</a></h6>
         
     <h2 id="dkone" class="white">Skill Build</h2>
     <p class="white">Red X = Lock</p>
         
-    <button onclick="skills()">Skills</button>
-    <div style="display: none;" id="hiddendk1"><img src="../../image/skills.png"></div>
+    <button onclick="hiddenbutton1()">Skills</button>
+    <div style="display: none;" id="hiddendkskills"><img src="../../image/skills.png"></div>
     <script>
-    function skills() {
-        var x = document.getElementById("hiddendk1");
+    function hiddenbutton1() {
+        var x = document.getElementById("hiddendkskills");
         if (x.style.display === "none") {
             x.style.display = "block";
         } else {
@@ -101,11 +102,27 @@
         
     <br /><br />
         
-    <button onclick="askills()">Awakening Skills</button>
-    <div style="display: none;" id="hidden"><img src="../../image/askills.png"></div>
+    <button onclick="hiddenbutton2()">Awakening Skills</button>
+    <div style="display: none;" id="hiddendkaskills"><img src="../../image/askills.png"></div>
     <script>
-    function askills() {
-        var x = document.getElementById("hidden");
+    function hiddenbutton2() {
+        var x = document.getElementById("hiddendkaskills");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+    </script>
+        
+    <div class="contentspace"></div>
+    <h2 id="dkone" class="white">Skill Addons</h2>
+        
+    <button onclick="hiddenbutton3()">Skill Addons</button>
+    <div style="display: none;" id="hiddendkaddons"><img src="../../image/addons.png"></div>
+    <script>
+    function hiddenbutton3() {
+        var x = document.getElementById("hiddendkaddons");
         if (x.style.display === "none") {
             x.style.display = "block";
         } else {
