@@ -1,0 +1,125 @@
+.center {
+  text-align: center; }
+
+nav {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  right: 50px; }
+  nav > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    border-radius: 5px; }
+    nav > ul > li {
+      float: right;
+      width: 150px;
+      height: 60px;
+      line-height: 60px;
+      position: relative;
+      font-size: 14px;
+      color: white;
+      text-shadow: 1px 4px 5px Black;
+      cursor: pointer; }
+      nav > ul > li:hover {
+        /*background: rgba(0,0,0,0.2) */
+        border-radius: 5px; }
+
+ul.drop-menu {
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  width: 100%;
+  padding: 0; }
+  ul.drop-menu li {
+    background: black;
+    color: white; }
+    ul.drop-menu li:hover {
+      background: black;
+      color: rgba(255, 255, 255, 0.7); }
+
+.ani1 {
+  animation-name: menu1;
+  animation-duration: 300ms;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.ani2 {
+  animation-name: menu1;
+  animation-duration: 600ms;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.ani3 {
+  animation-name: menu1;
+  animation-duration: 900ms;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.ani4 {
+  animation-name: menu1;
+  animation-duration: 1200ms;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.ani5 {
+  animation-name: menu1;
+  animation-duration: 1500ms;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.ani6 {
+  animation-name: menu1;
+  animation-duration: 1800ms;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+.ani7 {
+  animation-name: menu1;
+  animation-duration: 2100ms;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards; }
+
+@keyframes menu1 {
+  0% {
+    opacity: 0;
+    transform: rotateY(-90deg) translateY(30px); }
+  100% {
+    opacity: 1;
+    transform: rotateY(0deg) translateY(0px); } }
+ul.drop-menu li {
+  display: none; }
+
+li:hover > ul.drop-menu li {
+  display: block; }
+
+li a {
+  color: white; }
+
+header {
+  position: fixed;
+  z-index: 2;
+  width: 100%; }
+
+#main-header {
+  height: 60px;
+  overflow: hidden;
+  wdith: 100%;
+  Background: black; }
+
+#headspace {
+  height: 70px;
+  clear: left; }
+
+@media screen and (max-width: 1400px) {
+  nav {
+    top: 60px; }
+
+  #main-header {
+    height: 120px; }
+
+  #headspace {
+    height: 130px; } }
+
+/*# sourceMappingURL=header.css.map */
