@@ -290,7 +290,7 @@ td, th {
   height: 55px;
   width: 320px;
   position: fixed;
-  top: 0;
+  top: 2px;
   z-index: 5; }
 
 #dcover {
@@ -315,6 +315,12 @@ td, th {
   position: fixed;
   top: -5px;
   left: 550px;
+  z-index: 5; }
+
+#twitter {
+  position: fixed;
+  top: 15px;
+  left: 810px;
   z-index: 5; }
 
 .center {
@@ -433,13 +439,31 @@ header {
 
 @media screen and (max-width: 1400px) {
   nav {
-    top: 60px; }
+    top: 95px; }
 
   #main-header {
-    height: 120px; }
+    height: 155px; }
 
   #headspace {
-    height: 130px; } }
+    height: 165px; }
+
+  #discord {
+    display: none; }
+
+  #dcover {
+    display: none; }
+
+  #youtube {
+    display: none; }
+
+  #ycover {
+    display: none; }
+
+  #twitch {
+    display: none; }
+
+  #twitter {
+    display: none; } }
 h1 {
   text-align: center;
   font-size: 4em;
@@ -527,32 +551,15 @@ video#bgvid {
   position: fixed;
   top: 50%;
   left: 50%;
-  min-width: 100%;
-  min-height: 100%;
+  min-width: 150%;
+  min-height: 150%;
   width: auto;
   height: auto;
   z-index: -2;
   -ms-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  background: url(polina.jpg) no-repeat;
-  background-size: cover; }
-video#homevid {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -2;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  background: url(polina.jpg) no-repeat;
-  background-size: cover; }
+  transform: translateX(-50%) translateY(-50%); }
 
 .content {
   width: 850px;
@@ -585,5 +592,28 @@ video#homevid {
   color: black;
   cursor: pointer;
   padding: 15px; }
+
+#discordlogo {
+  display: none; }
+
+#youtubelogo {
+  display: none; }
+
+#twitchlogo {
+  display: none; }
+
+#twitterlogo {
+  display: none; }
+
+#logotable {
+  display: none; }
+
+@media screen and (max-width: 1400px) {
+  #logotable {
+    display: inline;
+    position: fixed;
+    left: 1%;
+    transform: translate(-1%, 0);
+    top: 1%; } }
 
 /*# sourceMappingURL=style.css.map */

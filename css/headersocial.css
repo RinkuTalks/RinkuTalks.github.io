@@ -2,7 +2,7 @@
   height: 55px;
   width: 320px;
   position: fixed;
-  top: 0;
+  top: 2px;
   z-index: 5; }
 
 #dcover {
@@ -27,6 +27,12 @@
   position: fixed;
   top: -5px;
   left: 550px;
+  z-index: 5; }
+
+#twitter {
+  position: fixed;
+  top: 15px;
+  left: 810px;
   z-index: 5; }
 
 /*# sourceMappingURL=headersocial.css.map */

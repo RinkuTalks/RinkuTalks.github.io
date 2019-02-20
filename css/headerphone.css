@@ -1,0 +1,24 @@
+#discordlogo {
+  display: none; }
+
+#youtubelogo {
+  display: none; }
+
+#twitchlogo {
+  display: none; }
+
+#twitterlogo {
+  display: none; }
+
+#logotable {
+  display: none; }
+
+@media screen and (max-width: 1400px) {
+  #logotable {
+    display: inline;
+    position: fixed;
+    left: 1%;
+    transform: translate(-1%, 0);
+    top: 1%; } }
+
+/*# sourceMappingURL=headerphone.css.map */
