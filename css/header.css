@@ -5,7 +5,8 @@ nav {
   text-align: center;
   position: fixed;
   top: 0;
-  right: 50px; }
+  right: 50px;
+  z-index: 1; }
   nav > ul {
     list-style: none;
     padding: 0;
