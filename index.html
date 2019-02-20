@@ -4,6 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <link type="text/css" rel="stylesheet" href="css/style.css">
+    
+    <link href="Modal/src/jquery.yu2fvl.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="Modal/src/jquery.yu2fvl.js"></script>
 
     <div id="bg"><img src="image/homebg.png"></div>
     <video id="bgvid" autoplay="" loop="" controls="" muted="">
@@ -84,5 +88,36 @@
     <h1 class="white">Welcome to<br />
     rinkutalks.pro</h1>
     
+    <p>
+        <a class="play-1" href="https://www.youtube.com/watch?v=AbTUw7aTITg">Play my video</a>
+    </p>
+    <pre>
+    <code class="language-html">
+    &lt;a class=&quot;play-1&quot; href=&quot;https://www.youtube.com/watch?v=AbTUw7aTITg&quot;&gt;Play my video&lt;/a&gt;
+
+    &lt;script&gt;
+      $(".play-1").yu2fvl();
+    &lt;/script&gt;
+    </code>
+    </pre>
+    <script>
+        $(".play-1, .play-2").yu2fvl();
+
+    </script>
+    <script>
+        $(".play-3").yu2fvl({
+            vid: "AbTUw7aTITg",
+            ratio: 4 / 3
+        });
+
+    </script>
+    <script>
+        $(".play-4").yu2fvl({
+            minPaddingY: 200,
+            minPaddingX: 200,
+            vid: "AbTUw7aTITg",
+            ratio: 21 / 9
+        });
+    </script>
 </body>
 </html>
