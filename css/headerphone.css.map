@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,YAAY;EACV,OAAO,EAAE,IAAI;;AAEf,YAAY;EACV,OAAO,EAAE,IAAI;;AAEf,WAAW;EACT,OAAO,EAAE,IAAI;;AAEf,YAAY;EACV,OAAO,EAAE,IAAI;;AAEf,UAAU;EACN,OAAO,EAAE,IAAI;;AAEjB,qCAAqC;EACnC,UAAU;IACR,OAAO,EAAE,MAAM;IACf,QAAQ,EAAE,KAAK;IACf,IAAI,EAAE,EAAE;IACR,SAAS,EAAE,iBAAiB;IAC5B,GAAG,EAAE,EAAE;IACP,OAAO,EAAE,CAAC",
-"sources": ["../sass/headerphone.sass"],
+"mappings": "",
+"sources": [],
 "names": [],
 "file": "headerphone.css"
 }
